@@ -13,6 +13,161 @@
 @import url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/source.css);
 
 :root {
+	
+	
+	/*
+ *
+ *	CHAT AREA
+ *
+ */
+.chat-2ZfjoI,
+.threadSidebar-1o3BTy {
+  background-color: var(--chat-color) !important;
+}
+
+.chat-2ZfjoI {
+  border-top-right-radius: var(--card-radius-big);
+}
+.chat-2ZfjoI.threadSidebarOpen-1LSXvU {
+  border-radius: 0 var(--card-radius-big) var(--card-radius-big) 0;
+}
+
+.noChannel-1GDIAZ {
+  background-color: var(--chat-color);
+  border-top-right-radius: var(--card-radius-big);
+}
+
+.notice-2HEN-u + .content-1SgpWY .chat-2ZfjoI,
+#bd-notices + .content-1SgpWY .chat-2ZfjoI {
+  border-top-right-radius: 0;
+}
+
+.chatContent-3KubbW {
+  background-color: transparent;
+}
+
+.chatHeaderBar-31g1mU {
+  background-color: var(--chat-color);
+}
+.chatHeaderBar-31g1mU:after {
+  display: none;
+}
+
+.threadSidebar-1o3BTy {
+  border-radius: var(--card-radius-big) 0 0 var(--card-radius-big);
+}
+
+.button-1kija8 {
+  --button-padding: 0 12px;
+  color: var(--button-link-text-color);
+}
+
+.role-23oyrw {
+  background-color: var(--message-color);
+  border-radius: 12px;
+}
+
+/* CHAT AREA -> PLACEHOLDER */
+.wrapper-3HVHpV, .wrapper-15CKyy {
+  background-color: var(--chat-color);
+}
+
+.wrapper-3HVHpV, .wrapper-15CKyy {
+  background-color: transparent;
+}
+
+.attachment-16cAbS,
+.avatar-l9Txm5,
+.blob-1uHjdp {
+  background-color: #fff;
+}
+
+/* CHAT AREA -> NEW MESSAGES PILL */
+.newMessagesPill-2YdO-e,
+.newMessagesClear-2LQVHt {
+  background-color: hsl(var(--accent-hsl--material-you)) !important;
+  box-shadow: var(--shadow-3dp);
+}
+
+.newMessagesPill-2YdO-e {
+  position: relative;
+  padding: 0px 0px;
+  border-radius: 18px;
+}
+.newMessagesPill-2YdO-e:after {
+  position: absolute;
+  content: " ";
+  width: 40px;
+  height: 36px;
+  top: 0;
+  right: -24px;
+  z-index: -1;
+}
+.newMessagesPill-2YdO-e .defaultColor-1EVLSt {
+  color: var(--accent-text-color--material-you);
+}
+
+.newMessagesClear-2LQVHt {
+  margin-left: 8px;
+  padding: 0px;
+  border-radius: 18px;
+  border-left: none;
+}
+.newMessagesClear-2LQVHt .newMessagesClearIcon-1hFLsw {
+  color: var(--accent-text-color--material-you);
+}
+
+/* CHAT AREA -> NEW MESSAGES BAR */
+.newMessagesBar-1hF-9G {
+  top: 0px;
+  left: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  box-shadow: none;
+  opacity: 1;
+  pointer-events: none;
+  z-index: 4;
+}
+.newMessagesBar-1hF-9G .barButtonBase-Sk2mdB {
+  height: unset;
+  line-height: 18px;
+  background-color: hsl(var(--accent-hsl--material-you));
+  color: var(--accent-text-color--material-you);
+  box-shadow: var(--shadow-2dp);
+  pointer-events: all;
+}
+.newMessagesBar-1hF-9G .barButtonMain-2GIx4o {
+  flex: 0 1 auto;
+  padding: 0px 0px;
+  border-radius: 18px;
+}
+.newMessagesBar-1hF-9G .barButtonAlt-TQoCdZ {
+  position: relative;
+  margin-left: 8px;
+  padding: 0px 0px;
+  border-radius: 18px;
+  font-size: 0;
+}
+.newMessagesBar-1hF-9G .barButtonAlt-TQoCdZ:before {
+  position: absolute;
+  content: " ";
+  width: calc(var(--button-radius) * 2 + 8px);
+  height: var(--button-height);
+  top: 0;
+  left: calc((var(--button-radius) + 8px) * -1);
+  background-color: transparent;
+  z-index: -1;
+}
+.newMessagesBar-1hF-9G .barButtonAlt-TQoCdZ .barButtonIcon-bMvzp2 {
+  top: 0;
+  margin: 0;
+}
+.newMessagesBar-1hF-9G .barButtonAlt-TQoCdZ .barButtonIcon-bMvzp2 path {
+  d: path("M18 7l-1.41-1.41-6.34 6.34 1.41 1.41L18 7zm4.24-1.41L11.66 16.17 7.48 12l-1.41 1.41L11.66 19l12-12-1.42-1.41zM.41 13.41L6 19l1.41-1.41L1.83 12 .41 13.41z");
+}
+
 	--accent-hue: 224;
 	--accent-saturation: 71%;
 	--accent-lightness: 61%;

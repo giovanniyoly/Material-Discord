@@ -21,15 +21,15 @@
 
 	--avatar-radius: 50%; /*	-	*/
 
-	--message-radius: 19px;
-	--message-padding-top: 8px;
-	--message-padding-side: 12px; /*	-	*/
+	--message-radius: 0px;
+	--message-padding-top: 0px;
+	--message-padding-side: 0px; /*	-	*/
 
-	--media-radius: 19px; /*	-	*/
+	--media-radius: 0px; /*	-	*/
 
-	--card-radius: 8px;
-	--card-radius-big: 18px; /*	-	*/
+	--card-radius: 0px;
+	--card-radius-big: 0px; /*	-	*/
 
-	--popout-radius: 8px;
-	--popout-radius-big: 18px;
+	--popout-radius: 0px;
+	--popout-radius-big: 0px;
 }
